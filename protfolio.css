@@ -1,0 +1,309 @@
+html{
+    background-color: #1b1b1b;
+}
+.frame-child {
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    background-color: #1b1b1b;
+    width: 1920px;
+    height: 1080px;
+}
+.frame-item {
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    backdrop-filter: blur(150px);
+    background-color: rgba(255, 255, 255, 0.02);
+    width: 1920px;
+    height: 1080px;
+}
+.rectangle-parent {
+    width: 1920px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0px;
+    left: 0px;
+    height: 1080px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 0;
+}
+.frame-inner {
+    position: absolute;
+    top: 0px;
+    left: -87px;
+    box-shadow: 6px 4px 60.9px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    background-color: rgba(49, 49, 49, 0.47);
+    width: 223px;
+    height: 1080px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 299px;
+    left: 35.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    background-color: #565656;
+    width: 61px;
+    height: 61px;
+}
+.frame-child1 {
+    position: absolute;
+    top: 474px;
+    left: 35.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    background-color: #565656;
+    width: 61px;
+    height: 61px;
+}
+.frame-child2 {
+    position: absolute;
+    top: 647px;
+    left: 35.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    background-color: #565656;
+    width: 61px;
+    height: 61px;
+}
+.home-1-icon {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    top: 308px;
+    left: 43px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+a:hover .home-1-icon{
+    opacity:0.6;
+}
+a:hover::before{
+    content: "";
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: url('home1-hover.png') no-repeat content/contain;
+}
+.user-1-icon {
+    position: absolute;
+    top: 484px;
+    left: 47px;
+    width: 39.6px;
+    height: 47px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+a:hover .user-1-icon{
+    opacity:0.6;
+}
+a:hover::before{
+    content: "";
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: url('user1-hover.png') no-repeat content/contain;
+}
+.info-1-icon {
+    position: absolute;
+    top: 656px;
+    left: 41px;
+    width: 51px;
+    height: 51px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+
+}
+a:hover .info-1-icon{
+    opacity:0.6;
+}
+a:hover::before{
+    content: "";
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: url('info1-hover.png') no-repeat content/contain;
+}
+.frame-child3 {
+    position: absolute;
+    top: 541px;
+    left: 66px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    background-color: #585858;
+    width: 2px;
+    height: 100px;
+}
+.frame-child4 {
+    position: absolute;
+    top: 368px;
+    left: 66px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    background-color: #585858;
+    width: 2px;
+    height: 100px;
+}
+.rectangle-group {
+    width: 210px;
+    position: relative;
+    height: 1080px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.frame-child5 {
+    position: absolute;
+    top: 195px;
+    left: 101px;
+    box-shadow: -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: #313131;
+    width: 887px;
+    height: 690px;
+}
+.frame-child6 {
+    position: absolute;
+    top: 25px;
+    left: 42px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #565656;
+    width: 803px;
+    height: 190px;
+}
+.frame-child7 {
+    position: absolute;
+    top: 237px;
+    left: 42px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #565656;
+    width: 803px;
+    height: 190px;
+}
+.frame-child8 {
+    position: absolute;
+    top: 449px;
+    left: 42px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #565656;
+    width: 803px;
+    height: 190px;
+}
+.film-icon {
+    position: absolute;
+    top: -8px;
+    left: 551px;
+    width: 322.5px;
+    height: 215px;
+    object-fit: cover;
+}
+.film-wrapper {
+    position: absolute;
+    top: 455px;
+    left: 42px;
+    border-radius: 30px;
+    width: 803px;
+    height: 184px;
+    overflow: hidden;
+}
+.first-project-lorem {
+    position: absolute;
+    top: 40px;
+    left: 62px;
+    letter-spacing: 0.07em;
+    display: inline-block;
+    width: 485px;
+    height: 165px;
+}
+.second-project-lorem {
+    position: absolute;
+    top: 252px;
+    left: 62px;
+    letter-spacing: 0.07em;
+    display: inline-block;
+    width: 315px;
+    height: 165px;
+}
+.third-project-lorem {
+    position: absolute;
+    top: 464px;
+    left: 62px;
+    letter-spacing: 0.07em;
+    display: inline-block;
+    width: 522px;
+    height: 165px;
+}
+.painting-icon {
+    position: absolute;
+    top: -84px;
+    left: 544px;
+    width: 530px;
+    height: 352px;
+    object-fit: cover;
+}
+.painting-wrapper {
+    position: absolute;
+    top: 30px;
+    left: 42px;
+    border-radius: 30px;
+    width: 803px;
+    height: 184px;
+    overflow: hidden;
+}
+.frame-div {
+    position: absolute;
+    top: 199px;
+    left: 101px;
+    border-radius: 14px 14px 0px 0px;
+    width: 887px;
+    height: 676px;
+    overflow: hidden;
+}
+.woodworking-icon {
+    position: absolute;
+    top: -14px;
+    left: 544px;
+    width: 316.5px;
+    height: 211px;
+    object-fit: cover;
+}
+.woodworking-wrapper {
+    position: absolute;
+    top: 440px;
+    left: 143px;
+    border-radius: 30px;
+    width: 803px;
+    height: 184px;
+    overflow: hidden;
+}
+.rectangle-container {
+    width: 1089px;
+    position: relative;
+    height: 1080px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+.port {
+    width: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    height: 1080px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 205px;
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'SF Pro Display';
+}
+

@@ -1,0 +1,304 @@
+html{
+    background-color: #1b1b1b;
+}
+.frame-child {
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    background-color: #1b1b1b;
+    width: 1920px;
+    height: 1080px;
+}
+.frame-item {
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    backdrop-filter: blur(150px);
+    background-color: rgba(255, 255, 255, 0.02);
+    width: 1920px;
+    height: 1080px;
+}
+.rectangle-parent {
+    width: 1920px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0px;
+    left: 0px;
+    height: 1080px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 0;
+}
+.frame-inner {
+    position: absolute;
+    top: 0px;
+    left: -87px;
+    box-shadow: 6px 4px 60.9px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    background-color: rgba(49, 49, 49, 0.47);
+    width: 223px;
+    height: 1080px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 299px;
+    left: 35.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    background-color: #565656;
+    width: 61px;
+    height: 61px;
+}
+.frame-child1 {
+    position: absolute;
+    top: 474px;
+    left: 35.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    background-color: #565656;
+    width: 61px;
+    height: 61px;
+}
+.frame-child2 {
+    position: absolute;
+    top: 647px;
+    left: 35.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    background-color: #565656;
+    width: 61px;
+    height: 61px;
+}
+.home-1-icon {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    top: 308px;
+    left: 43px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+a:hover .home-1-icon{
+    opacity:0.6;
+}
+a:hover::before{
+    content: "";
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: url('home1-hover.png') no-repeat content/contain;
+}
+.user-1-icon {
+    position: absolute;
+    top: 484px;
+    left: 47px;
+    width: 39.6px;
+    height: 47px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+a:hover .user-1-icon{
+    opacity:0.6;
+}
+a:hover::before{
+    content: "";
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: url('user1-hover.png') no-repeat content/contain;
+}
+.info-1-icon {
+    position: absolute;
+    top: 656px;
+    left: 41px;
+    width: 51px;
+    height: 51px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+
+}
+a:hover .info-1-icon{
+    opacity:0.6;
+}
+a:hover::before{
+    content: "";
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: url('info1-hover.png') no-repeat content/contain;
+}
+.frame-child3 {
+    position: absolute;
+    top: 541px;
+    left: 66px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    background-color: #585858;
+    width: 2px;
+    height: 100px;
+}
+.frame-child4 {
+    position: absolute;
+    top: 368px;
+    left: 66px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    background-color: #585858;
+    width: 2px;
+    height: 100px;
+}
+.rectangle-group {
+    width: 210px;
+    position: relative;
+    height: 1080px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.frame-child5 {
+    position: absolute;
+    top: 28px;
+    left: 101px;
+    box-shadow: -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: #313131;
+    width: 887px;
+    height: 1024px;
+}
+.frame-child6 {
+    position: absolute;
+    top: 805px;
+    left: 146px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #565656;
+    width: 803px;
+    height: 190px;
+}
+.overall {
+    position: absolute;
+    top: 751px;
+    left: 160px;
+    letter-spacing: 0.07em;
+}
+.im-a-small {
+    position: absolute;
+    top: 820px;
+    left: 166px;
+    letter-spacing: 0.07em;
+    display: inline-block;
+    width: 772px;
+    height: 165px;
+}
+.frame-child7 {
+    position: absolute;
+    top: 19px;
+    left: 11px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #565656;
+    width: 866px;
+    height: 96px;
+}
+.frame-child8 {
+    position: absolute;
+    top: 152px;
+    left: 11px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #565656;
+    width: 866px;
+    height: 180px;
+}
+.frame-child9 {
+    position: absolute;
+    top: 360px;
+    left: 11px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #565656;
+    width: 866px;
+    height: 180px;
+}
+.frame-child10 {
+    position: absolute;
+    top: 568px;
+    left: 13px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #565656;
+    width: 466px;
+    height: 100px;
+}
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 34px;
+    left: 29px;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    display: inline-block;
+    width: 835px;
+    height: 67px;
+}
+.qui-maiores-vitae {
+    position: absolute;
+    top: 167px;
+    left: 29px;
+    letter-spacing: 0.07em;
+    display: inline-block;
+    width: 835px;
+    height: 67px;
+}
+.et-quos-officia {
+    position: absolute;
+    top: 369px;
+    left: 29px;
+    letter-spacing: 0.07em;
+    display: inline-block;
+    width: 835px;
+    height: 154px;
+}
+.i-ride-cars {
+    position: absolute;
+    top: 580px;
+    left: 32px;
+    letter-spacing: 0.07em;
+    display: inline-block;
+    width: 427px;
+    height: 82px;
+}
+.frame-div {
+    position: absolute;
+    top: 28px;
+    left: 101px;
+    border-radius: 14px 14px 0px 0px;
+    width: 887px;
+    height: 676px;
+    overflow: hidden;
+    font-size: 24px;
+}
+.rectangle-container {
+    width: 1089px;
+    position: relative;
+    height: 1079px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+.about-me {
+    width: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    height: 1080px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 205px;
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'SF Pro Display';
+}
+
