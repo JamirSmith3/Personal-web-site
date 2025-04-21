@@ -135,7 +135,6 @@ a:hover::before{
     height: 49px;
     object-fit: cover;
     transition: opacity 0.3s ease;
-
 }
 a:hover .letter-1-icon{
     opacity:0.6;
