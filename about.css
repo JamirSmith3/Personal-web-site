@@ -127,6 +127,26 @@ a:hover::before{
     height: 47px;
     background: url('info1-hover.png') no-repeat content/contain;
 }
+.letter-1-icon {
+    position: absolute;
+    top: 1003px;
+    left: 42px;
+    width: 49px;
+    height: 49px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+
+}
+a:hover .letter-1-icon{
+    opacity:0.6;
+}
+a:hover::before{
+    content: "";
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: url('letter1-hover.png') no-repeat content/contain;
+}
 .frame-child3 {
     position: absolute;
     top: 541px;

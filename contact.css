@@ -219,7 +219,7 @@ a:hover::before{
     position: absolute;
     top: 184px;
     left: 42px;
-    border-radius: 30px;
+    border-radius: 0px;
     width: 803px;
     height: 477px;
     overflow: hidden;
@@ -266,6 +266,6 @@ a:hover::before{
 
 @media(max-width: 900px){
     body{
-        background-color: #1b1616;
+        background-color: #a30000;
     }
 }
