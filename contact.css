@@ -31,7 +31,7 @@ html{
 }
 .frame-inner {
     position: absolute;
-    top: 0px;
+    top: -1px;
     left: -87px;
     box-shadow: 6px 4px 60.9px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
@@ -41,7 +41,7 @@ html{
 }
 .rectangle-div {
     position: absolute;
-    top: 299px;
+    top: 242px;
     left: 35.5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 17px;
@@ -51,7 +51,7 @@ html{
 }
 .frame-child1 {
     position: absolute;
-    top: 474px;
+    top: 417px;
     left: 35.5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 17px;
@@ -61,7 +61,17 @@ html{
 }
 .frame-child2 {
     position: absolute;
-    top: 647px;
+    top: 590px;
+    left: 35.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    background-color: #565656;
+    width: 61px;
+    height: 61px;
+}
+.frame-child3 {
+    position: absolute;
+    top: 772px;
     left: 35.5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 17px;
@@ -71,10 +81,10 @@ html{
 }
 .home-1-icon {
     position: absolute;
+    top: 250px;
+    left: 43px;
     width: 47px;
     height: 47px;
-    top: 308px;
-    left: 43px;
     object-fit: cover;
     transition: opacity 0.3s ease;
 }
@@ -90,7 +100,7 @@ a:hover::before{
 }
 .user-1-icon {
     position: absolute;
-    top: 484px;
+    top: 426px;
     left: 47px;
     width: 39.6px;
     height: 47px;
@@ -109,10 +119,10 @@ a:hover::before{
 }
 .info-1-icon {
     position: absolute;
-    top: 656px;
-    left: 41px;
-    width: 51px;
-    height: 51px;
+    top: 600px;
+    left: 43px;
+    width: 47px;
+    height: 47px;
     object-fit: cover;
     transition: opacity 0.3s ease;
 }
@@ -126,9 +136,39 @@ a:hover::before{
     height: 47px;
     background: url('info1-hover.png') no-repeat content/contain;
 }
+.frame-child4 {
+    position: absolute;
+    top: 484px;
+    left: 66px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    background-color: #585858;
+    width: 2px;
+    height: 100px;
+}
+.frame-child5 {
+    position: absolute;
+    top: 663px;
+    left: 66px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    background-color: #585858;
+    width: 2px;
+    height: 100px;
+}
+.frame-child6 {
+    position: absolute;
+    top: 311px;
+    left: 66px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    background-color: #585858;
+    width: 2px;
+    height: 100px;
+}
 .letter-1-icon {
     position: absolute;
-    top: 1003px;
+    top: 788px;
     left: 42px;
     width: 49px;
     height: 49px;
@@ -145,26 +185,6 @@ a:hover::before{
     height: 47px;
     background: url('letter1-hover.png') no-repeat content/contain;
 }
-.frame-child3 {
-    position: absolute;
-    top: 541px;
-    left: 66px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 11px;
-    background-color: #585858;
-    width: 2px;
-    height: 100px;
-}
-.frame-child4 {
-    position: absolute;
-    top: 368px;
-    left: 66px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 11px;
-    background-color: #585858;
-    width: 2px;
-    height: 100px;
-}
 .rectangle-group {
     width: 210px;
     position: relative;
@@ -173,137 +193,61 @@ a:hover::before{
     flex-shrink: 0;
     z-index: 1;
 }
-.frame-child5 {
+.frame-child7 {
     position: absolute;
-    top: 28px;
+    top: 195px;
     left: 101px;
     box-shadow: -4px 4px 50.3px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
     background-color: #313131;
     width: 887px;
-    height: 1024px;
-}
-.frame-child6 {
-    position: absolute;
-    top: 805px;
-    left: 146px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    background-color: #565656;
-    width: 803px;
-    height: 190px;
-}
-.overall {
-    position: absolute;
-    top: 751px;
-    left: 160px;
-    letter-spacing: 0.07em;
-}
-.im-a-small {
-    position: absolute;
-    top: 820px;
-    left: 166px;
-    letter-spacing: 0.07em;
-    display: inline-block;
-    width: 772px;
-    height: 165px;
-}
-.frame-child7 {
-    position: absolute;
-    top: 19px;
-    left: 11px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    background-color: #565656;
-    width: 866px;
-    height: 96px;
+    height: 690px;
 }
 .frame-child8 {
     position: absolute;
-    top: 152px;
-    left: 11px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+    top: 118px;
+    left: 0px;
+    box-shadow: -4px 4px 50.3px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 14px 14px;
     background-color: #565656;
-    width: 866px;
-    height: 180px;
+    border: 1px solid #1b1111;
+    box-sizing: border-box;
+    width: 887px;
+    height: 617px;
 }
 .frame-child9 {
     position: absolute;
-    top: 360px;
-    left: 11px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    background-color: #565656;
-    width: 866px;
-    height: 180px;
+    top: 184px;
+    left: 42px;
+    border-radius: 0px;
+    width: 803px;
+    height: 477px;
+    overflow: hidden;
 }
-.frame-child10 {
+.contact1 {
     position: absolute;
-    top: 568px;
-    left: 13px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48) inset, -4px 4px 50.3px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    background-color: #565656;
-    width: 466px;
-    height: 100px;
-}
-.lorem-ipsum-dolor {
-    position: absolute;
-    top: 34px;
-    left: 29px;
-    font-size: 20px;
-    letter-spacing: 0.07em;
-    display: inline-block;
-    width: 835px;
-    height: 67px;
-}
-.qui-maiores-vitae {
-    position: absolute;
-    top: 167px;
-    left: 29px;
-    letter-spacing: 0.07em;
-    display: inline-block;
-    width: 835px;
-    height: 67px;
-}
-.et-quos-officia {
-    position: absolute;
-    top: 369px;
-    left: 29px;
-    letter-spacing: 0.07em;
-    display: inline-block;
-    width: 835px;
-    height: 154px;
-}
-.i-ride-cars {
-    position: absolute;
-    top: 580px;
-    left: 32px;
-    letter-spacing: 0.07em;
-    display: inline-block;
-    width: 427px;
-    height: 82px;
+    top: 60px;
+    left: 27px;
+    letter-spacing: 0.27em;
 }
 .frame-div {
     position: absolute;
-    top: 28px;
+    top: 152px;
     left: 101px;
     border-radius: 14px 14px 0px 0px;
     width: 887px;
-    height: 676px;
+    height: 840px;
     overflow: hidden;
-    font-size: 24px;
 }
 .rectangle-container {
     width: 1089px;
     position: relative;
-    height: 1079px;
+    height: 1080px;
     overflow: hidden;
     flex-shrink: 0;
     z-index: 2;
 }
-.about-me {
+.contact {
     width: 100%;
     position: relative;
     background-color: rgba(255, 255, 255, 0);
@@ -315,8 +259,13 @@ a:hover::before{
     justify-content: flex-start;
     gap: 205px;
     text-align: left;
-    font-size: 30px;
+    font-size: 32px;
     color: #fff;
     font-family: 'SF Pro Display';
 }
 
+@media(max-width: 900px){
+    body{
+        background-color: #a30000;
+    }
+}
